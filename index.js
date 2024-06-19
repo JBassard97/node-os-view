@@ -79,8 +79,8 @@ const logFreeMemory = () => {
   const freeMemGB = Math.floor(freeMemBytes / 1024 / 1024 / 1024);
 
   console.log(
-    MagentaBackground(" FREE MEMORY: ") +
-      MagentaText(`${freeMemBytes} bytes / ${freeMemMB} MB / ${freeMemGB} GB`)
+    MagentaBackground(" FREE MEMORY: "),
+    MagentaText(`${freeMemBytes} bytes / ${freeMemMB} MB / ${freeMemGB} GB`)
   );
 };
 
